@@ -9,15 +9,17 @@ This the initial version of the firmware to run a Microbox 3 emulation on the MB
 
 There is a partial emulation of the RMS chips together with functional RTC, PIA and dual ACIAs. Keyboard input can be either via ACIA (USB) or PIA (PS/2 interface) and text out either ACIA or a bitmapped terminal emulation on the VGA display (640x480) as per the original.
 
-Still to go are the mass storage drivers for the PROMdisk and non volatile RAMdisk and then an OS port.
-
 If you have an XTAG interface download this and try it out on your MB2K2.
 
-Details on flashing the MB2K2 are in the documentation but note that this will erase your current PROMdisk so if you have added any additional files to it please be sure to save these before loading the new binary image.
+The MB2K2 can be flashed from xTIME composer or the command line tools
+      but whichever route is taken it is necessary to specify these options:-
+         --no-compression
+         --boot-partition-size 0x100000
+         --data <location of promdisk.dsk file>
+         
+Details on flashing the MB2K2 are in the documentation but note that this will erase your current PROMdisk so if you have added any additional files to it please be sure to save these before loading the new binary image.         
 
-Use the Xmos command line and type :-
-xflash -—verbose -—no-compression mb2k2_68k_release_usb.xe
-Just use the instructions in the construction guide to restore your MB2K2 afterwards.
+Use the instructions in the construction guide to restore your MB2K2 afterward.
 
-
-
+Update 10th Jul 2023 - MB2K2_68K now has a functional port of SKDOS/68K supporting both the PROMdisk and F-RAMdisk. 
+                       There are still multiple bugs/hangs/uninplimented things.
