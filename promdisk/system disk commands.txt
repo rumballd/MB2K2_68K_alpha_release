@@ -1,0 +1,70 @@
+  ACAT    .COM       alphabetised 'cat'
+  ADM-3A  .DVR       ADM-3A serial driver
+  ADM-3A  .TXT       ADM-3A serial driver source
+  APPEND  .COM       append files
+  ASCII   .COM       print out hex code for any single keyboard char
+  ASCII   .TXT       ASCII command source
+  ASM     .COM       assembler (hangs part way through)
+  BACKUP  .COM       make an exact copy of one disk on another
+  BEEP    .COM       add a beep (bell) as part of the prompt.
+  BUILD   .COM       generate short text files.
+  CACHE   .COM       set up a disk buffer in RAM
+  CAT     .COM       print a catalog of the files on a disk.
+  CHECKSUM.COM       read an entire disk and calculate a checksum of all the data
+  CMP     .COM       compare two files to check if they are the same
+  CMP     .TXT       source for CMP
+  COMPARE .COM       compare the entire contents of two disks against each other
+  COPY    .COM       copy files
+  DAMON   .COM       prints out the drive, track, and sector number for all disk reads and writes
+  DELETE  .COM       delete one or more files
+  DEVICE  .COM       install or display SK*DOS device drivers
+  DIFF    .COM       compare two text files and display their differences
+  DISKNAME.COM       change the name, number or creation date of a disk
+  DOSPARAM.COM       change or display various DOS parameters
+  DRIVE   .COM       maplogical and physical drives
+  ECHO    .COM       take the remaining text on the command line and display it
+  EDLIN   .COM       simple line editor
+  ERRCODES.SYS       system error messages
+  FAKE    .BAT       install fakeadm driver
+  FAKEADM .DVR       fakeadm driver
+  FAKEADM .TXT       fakeadm driver source
+  FIND    .COM       find a specified text string within a text file
+  FROMSDOS.COM       reads a text file from a specially-formatted MSDOS disk to SK*DOS
+  FTOH    .COM       save a mirror image of an entire disk
+  HELP    .COM       help text
+  HTOF    .COM       restore a disk saved with FTOH
+  LIST    .COM       display the contents of a text file
+  LOCATE  .COM       print out the load and execution addresses of binary files
+  MAKEMPTY.COM       create an empty file
+  NOBEEP  .COM       cancel the effects of BEEP
+  PDELETE .COM       prompted delete utility
+  PEEK    .COM       print out the hex contents of a memory location
+  POKE    .COM       change the contents of a memory location
+  PROMPT  .COM       change the SK*DOS prompt
+  PROTECT .COM       display or change a file's protection status
+  RAMDISK .COM       set up an area of memory which is used as a virtual disk
+  READ    .COM       browse through a text file forward and backward
+  READ    .TXT       read source
+  REDOFREE.COM       read and check all the sectors in the free chain
+  RENAME  .COM       rename a disk file
+  S1TOCOM .COM       convert a binary file in S1/S9 format to a SK*DOC command
+  SCAT    .COM       print a disk directory with all files in order by their date and sequence number
+  SEQUENCE.COM       assigne a date and sequence number
+  SK@DOS09.COM       6809 SK*DOS emulator
+  SKEQUATE.TXT       SK*DOS equates source
+  SPLIT   .COM       split a large text file into two
+  STARTUP .BAK       1     7-12-23
+  STARTUP .BAT       startup batch file
+  SYSTEM  .COM       display or change the current default system drive
+  TCAT    .COM       print a disk directory with all files ordered by date and time
+  TIME    .COM       display or set the current date and time in the RTC
+  TOLOWER .COM       convert text file to lower case
+  TOMSDOS .COM       write a text file to a specially-formatted MSDOS disk
+  TRACENAB.COM       trace through user programs (uses HUMBUG)
+  TURN    .COM       ! (just spins cursor...)
+  UBASIC  .COM       simple Basic interpreter
+  UNDELETE.COM       restore a file which has been accidentally deleted
+  VERIFY  .COM       turn floppy disk verification on or off
+  VERSION .COM       prints out the version number of binary files
+  WORK    .COM       display or change the current default work drive
+  Y       .PIP       force command input to 'y'
